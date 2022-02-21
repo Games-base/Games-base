@@ -6,7 +6,9 @@
     <title>Matching Cards</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+   <link rel="canonical" href="https://codepo8.github.io/github-page-pwa/" />
+   <link rel="manifest" href="/github-page-pwa/manifest.webmanifest">
+</head>
   <body>
     <div class="wrapper">
       <ul class="cards">
@@ -115,6 +117,12 @@
     </div>
 
     <script src="script.js"></script>
-    
+    <script>if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/github-page-pwa/sw.js',
+          {scope: '/github-page-pwa/'}
+        )
+      }
+</script>
   </body>
 </html>
