@@ -178,5 +178,6 @@ body{
 .footer,
 .push {
   height: 50px;
-  background: grey;
+  background: #42A5F5;
+  color: white;
 }
