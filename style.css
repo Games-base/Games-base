@@ -28,8 +28,9 @@ body{
 }
 .content {
   padding: 20px;
-  min-height: 100%;
+  min-height: 70%;
   margin: 0 auto -50px;
+  color: #fff;
 }
 .cards, .card, .view, .details, p{
   display: flex;
@@ -177,4 +178,5 @@ body{
 .footer,
 .push {
   height: 50px;
+  background: grey;
 }
